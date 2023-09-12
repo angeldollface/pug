@@ -1,0 +1,20 @@
+on: [push]
+name: PUG CI
+jobs:
+  build_and_test:
+    name: PUG CI
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: "Compile Pug."
+        run: make && make perm
+
+      - name: "Get version info."
+        run: ./pug version
+
+      - name: "Get help info."
+        run: ./pug help
+
+      - name: "Run tests."
+        run: ./pug .gitignore
