@@ -1,6 +1,6 @@
 # PUG :dog: :heart:
 
-![GitHub CI](https://github.com/angeldollface/pug/actions/workflows/clang.yml/badge.svg)
+![GitHub CI](https://github.com/angeldollface/pug/actions/workflows/main.yml/badge.svg)
 
 ***An alternative to the popular "cat" command. :dog: :heart:***
 
@@ -13,7 +13,7 @@ I was looking for project ideas to implement in C. While thinking about this, I 
 Make sure you have the following tools installed and available as commands from a terminal session:
 
 - Git
-- Clang
+- The GNU C Compiler
 - CMake
 
 To install ***Pug***, follow these steps:
